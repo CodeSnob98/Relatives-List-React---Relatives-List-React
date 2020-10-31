@@ -5,7 +5,7 @@ class App extends Component {
     let list = [" Supratim", "Indra", "Ayan", "Dipayan", "Santanu", "Souradip"];
     return (
       <>
-        <ol kye="relativeList">
+        <ol key="relativeList">
           {list.map((ele, index) => (
             <li key={`relativeListItem${index + 1}`}>{ele}</li>
           ))}
